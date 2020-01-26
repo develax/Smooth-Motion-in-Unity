@@ -9,4 +9,4 @@ Now, there are only 2 components instead of original 3:
 3. The `InterpolatedTransformUpdater` component was removed as unnecessary.
 
 ## Remarks
-For these scripts to work correctly the user's script must change the object's `transform` only in the `FixedUpdate()` method. When teleporting the object the user should call the (`InterpolationObjectController`).`ResetTransforms()` method.
+For these scripts to work correctly the user's script must change the object's `transform` only in the `FixedUpdate()` method. When teleporting the object the user should call the (`InterpolationObjectController`).`ResetTransforms()` method after it.
