@@ -1,4 +1,4 @@
-# Smooth Motion in Unity (improved)
+# Smooth Motion in Unity (refactored)
 
 This is an improved (refactored) version of the code from the ["Timesteps and Achieving Smooth Motion in Unity"](https://www.kinematicsoup.com/news/2016/8/9/rrypp5tkubynjwxhxjzd42s3o034o8?utm_source=youtube&utm_type=SMVideo) article.
 
