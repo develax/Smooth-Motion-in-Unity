@@ -5,7 +5,7 @@ This is an improved (refactored) version of the code from the ["Timesteps and Ac
 Now, there are only 2 components instead of original 3:
 
 1. [`InterpolationFactorController`](https://github.com/DevelAx/Smooth-Motion-in-Unity/blob/master/InterpolationFactorController.cs) a singleton scene component (the original name was `InterpolationController`) that calculates the current *interpolation factor*.
-2. [`InterpolationObjectController`](https://github.com/DevelAx/Smooth-Motion-in-Unity/blob/master/InterpolationObjectController.cs) a component for a moving object (the original name was `InterpolatedTransform`) which calculates the current interpolation for the object in `Update()` method before it's being rendering and then restores original values for the next `FixedUpdate()` call.
+2. [`InterpolationObjectController`](https://github.com/DevelAx/Smooth-Motion-in-Unity/blob/master/InterpolationObjectController.cs) a component for a moving object (the original name was `InterpolatedTransform`) which calculates the current interpolation for the object in the `Update()` method before it's being rendered and then restores its original `transform` values for the next `FixedUpdate()` call.
 3. The `InterpolatedTransformUpdater` component was removed as unnecessary.
 
 ## Remarks
